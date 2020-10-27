@@ -1,0 +1,71 @@
+body {
+    overflow-x: hidden;
+}
+.Cart {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.head {
+    text-align: center;
+}
+.description {
+    flex-direction: column;
+    font-style: italic;
+}
+.size{
+  display: flex;
+  flex-wrap: wrap;
+}
+.value{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.value:hover{
+    background-color: #DCDCDC;
+    transition: 0.1s;
+}
+.add-to-cart{
+    position: relative;
+    text-align: center;
+    height: 45px;
+    width: 200px;
+    background-color: yellow;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+.img{
+    width: 100%;
+    height: 600px;
+}
+.newarrivals{
+    text-align: center;
+}
+.shoeimg{
+    margin: 20px;
+    border: 4px solid black;
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.head{
+    text-align: center;
+}
+.footer{
+    color: black;
+    text-align: center;
+    background-color: #f7fcfe;
+    height: 70px;
+}
+.heading1{
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
